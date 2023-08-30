@@ -5,17 +5,17 @@ ansible_user: ansibleuser
 systemd_dir: /etc/systemd/system
 
 # Set your timezone
-system_timezone: "Your/Timezone"
+system_timezone: "america/chicago"
 
 # interface which will be used for flannel
-flannel_iface: "eth0"
+flannel_iface: "enp0s31f6"
 
 # apiserver_endpoint is virtual ip-address which will be configured on each master
-apiserver_endpoint: "192.168.30.222"
+apiserver_endpoint: "10.10.0.11"
 
 # k3s_token is required  masters can talk together securely
 # this token should be alpha numeric only
-k3s_token: "some-SUPER-DEDEUPER-secret-password"
+k3s_token: "1qaz2wsx3edc4rfv"
 
 # The IP on which the node is reachable in the cluster.
 # Here, a sensible default is provided, you can still override
